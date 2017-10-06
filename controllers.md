@@ -1,8 +1,12 @@
-#### [Controllers & Virtual Buttons](#controllersandbuttons)
+# [Controllers & Virtual Buttons](#controllersandbuttons)
+
+MIDI (Musical Instrument Digital Interface) is a protocol for connecting commodity controllers, such as MIDI keyboards, control panels, foot pedals or any other MIDI capable USB device. WWT provides a setup panel for users to map keys, buttons, knobs, sliders and foot pedals to nearly all of WWT functionality. Similarly, WWT allows custom mapping to an Xbox game controller.  This functionality can be used in classroom presentations, planetarium control boards, in museum settings, and for data exploration with temporal and other controls.
+
+**Skills Required:** You need to be able to understand how to connect your MIDI device to your computer, and use the WWT device configuration panel to map your Xbox controller or MIDI device to WWT functions.  Note, more custom MIDI devices may require coding or hardware assembly, but off-the-shelf MIDI controllers are plug and play with WWT.
 
 Currently, WorldWide Telescope (WWT) can be controlled by a variety of controllers. Custom mapping can be done for MIDI and Xbox controllers, connected by USB to the computer running WWT as well as configurable virtual buttons.
 
-#### MIDI Controller
+## MIDI Controller
 
 Any MIDI controller can be used to control WorldWide Telescope. You can re-use mapping of WWT functions created by someone else. You can also create your own or edit a previously-created mapping. Start by selecting “Settings/Controller Setup...” This brings up a dialog window where you can select a file containing the mapping functions. For the Numark DJ2Go you can [download a standard mapping file](@Model.ResLoc/Content/Learn/Numark%20DJ2Go.wwtmm).
 
@@ -41,7 +45,7 @@ A full list of potential bindings is available in an Excel spreadsheet [here](@M
 
 The labels for the functions can be placed on the position of the corresponding knob on the image for the controller. In the case of the default map this has already been done. Click the function in the list and hold and drag onto the image. Release your mouse when the label is at the desired location. Note that when the “Monitor” box is checked and the key is pressed on the controller the label changes from white to yellow.
 
-#### Xbox Controller
+## Xbox Controller
 
 WWT can be controlled by a PC version of an Xbox Controller. This is an excellent interface to use in a planetarium or presentation environment because the controller is portable and the buttons can be distinguished in the dark.
 
